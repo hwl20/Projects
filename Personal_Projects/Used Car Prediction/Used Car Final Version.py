@@ -294,6 +294,7 @@ df = pd.get_dummies(df, drop_first=True)
 
 # Scaling the data
 # selling_price, km_driven, max_power, years_used are right skewed
+df_original = df.copy()
 df1 = df['selling_price']
 df2 = np.log(df1)
 plt.figure()
