@@ -12,7 +12,9 @@ Business problem:
     Higher turnover rate will mean more PROFIT for platforms who earn comission from a resale of a car and happy customers which help customer retention as well
         
 Dataset details:
+
 -This dataset contains information about used cars based in India last recorded on June 2020
+
 -Preliminary column desription and personal thoughts:
 
     1. name - name and model of vehicle
