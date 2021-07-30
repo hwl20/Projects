@@ -4,6 +4,7 @@ Project dataset: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
 Date retrieved: 2021-07-20
 
 Business problem: 
+    
     We want to create a model that is able to accurately predict the value of a car. 
     This will allow car buyers to better evaluate the true value of a car such that they are not overpaying based on certain car metrics.
     Also it will allow sellers to better estimate the price they want to list their car especially if they want to ensure they are able to sell their car.
@@ -13,6 +14,7 @@ Business problem:
 Dataset details:
 -This dataset contains information about used cars based in India last recorded on June 2020
 -Preliminary column desription and personal thoughts:
+
     1. name - name and model of vehicle
     2. year - car manufacture date, older cars should have relatively lower value due to depreciation
     3. selling_price - dependent variable that we are looking to build a model that can accurately predict this
@@ -28,9 +30,10 @@ Dataset details:
     13. seats- Seats of car, more seats generally corresponds to higher selling price
 
 In here we will follow the data science framework of working with data:
-Retrieving data - Kindly done so from kaggle
-Data Cleaning
-Exploratory Data Analysis to get a better understanding of data
-Feature selection 
-Model Building
-Validating model goodness and effectiveness
+
+    Retrieving data - Kindly done so from kaggle
+    Data Cleaning
+    Exploratory Data Analysis to get a better understanding of data
+    Feature selection 
+    Model Building
+    Validating model goodness and effectiveness
