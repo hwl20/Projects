@@ -1,0 +1,40 @@
+Business Statement:
+- For home seekers/property investors, they seek to be able to buy a home at a lowest possible value. 
+- Thus, it is of best interest to have a predictor system that is capable of providing an approximation of home prices according to their general preferences
+- This enable buyers to get a rough estimate for a property they are looking for and work a budget out
+*Note: If user already has a particular housing development in mind, then simply searching for it will do. Here the aim is to give a general price estimate according to GENERAL parameters like Locale, Area, Floor Level, Freehold Status, New or Resale etc.
+
+Aim: 
+Understand the demographics of private home pricing in Singapore, before curating a model to conduct predictive analysis for private home prices
+
+
+Workflow:
+Obtaining Data
+Data Preprocessing
+Exploratory Data Analysis
+Model Building
+Model Validation
+
+Background on Data:
+- Obtained Private Residental Property Transactions(Type Apartments and Condominiums) data from URA website (https://www.ura.gov.sg/realEstateIIWeb/transaction/search.action)
+- New sale & Resale transactions cover all 28 of Singapore Postal Districts, and ranges from July-2016 to July-2021 (Recent 5 years)
+- Private property in Singapore can be categorized into 4 sub-categories:
+Landed Properties, Strata Landed, Apartments & Condominiums, Executive Condominiums
+- In this project we will only be focusing on Apartments & Condominiums, as they are the most common type of private properties and have very high transactions rate (https://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data)
+
+Data columns and initial thoughts:
+Project Name - Project of property build: Seems too specific for analysis
+Street Name - Specific Area: Need further analysis to determine its usefulness
+Type - Condo/Apartment 
+Postal District- 1 to 28
+Market Segment - Area of housing: Central Area will command higher prices
+Tenure - Years left on lease: Longer lease equals higher price
+Type of sale -  Resale/New Sale
+No of units - Number of units sold in one transactions
+Price - Outcome variable
+Nett Price
+Area - House size: Larger Area equals higher price
+Type of Area - Strata
+Floor Level - Higher floor should equal higher prices
+Unit Price ($psf) - Price/Area
+Data of Sale - How recent was the transaction 
