@@ -173,6 +173,7 @@ twitter_2 %>% filter(abs(n)>750)%>%
   coord_flip()+
   labs(y="Word Sentiment")
 
+
 # Seems like more positive sentiments by analyzing words from twitter tweets on twitter  
 
 # Word Cloud for twitter
