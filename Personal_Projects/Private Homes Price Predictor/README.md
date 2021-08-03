@@ -2,7 +2,7 @@ This Project was done with the end goal of building a model capable of predictin
 
 Index of files:
 
-  1) Code.py - Raw Code directly from Python 
+  1) Code.py - Full Code directly from Python 
   
   2) Business Statement.txt - Background Information of Project, Project Workflow, as well as the breakdown of Dataset
   
