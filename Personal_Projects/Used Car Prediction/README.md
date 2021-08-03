@@ -1,7 +1,7 @@
 This file contains the project on predicting Used Car Prices, based off a dataset of car prices in India from Kaggle.
 
 Navigate this page:
- - Raw python code: Used Car Final Version.py
+ - Full python code: Used Car Final Version.py
  - Coded on Google Colab: UsedCarGoogleColab.ipynb
 
     
