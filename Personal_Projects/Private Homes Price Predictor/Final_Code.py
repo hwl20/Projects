@@ -1,11 +1,5 @@
 # Private Properties Price Prediction Analysis
 # Combining the dataframes
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from datetime import date
-import math 
 
 # Combining the 6 tables of data obtained from URA website
 df1 = pd.read_csv("District 1-5.csv", index_col=0)
@@ -22,10 +16,17 @@ df = df.append(df5, ignore_index=True)
 df = df.append(df6, ignore_index=True)
 df.to_csv('Private Home Data.csv')
 
+# Importing Packages
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import date
+import math 
 
 #################### Data Preprocessing ####################
 # Preliminary Analysis
-# Link ot Dataset could be found here: https://docs.google.com/spreadsheets/d/1wfzTmOEbRnHw-XDkJZTn2uwBlgqxdUtwsCq6CTCZ-Zs/edit?usp=sharing
+# Link to Dataset could be found here: https://docs.google.com/spreadsheets/d/1EGHUpw3v2Fa2vFbGd6_3yyUrTPTKM8vZB_w6V6xxez0/edit?usp=sharing
 df = pd.read_csv('Private Home Data.csv',index_col=0)
 df_subset = df.head()
 
