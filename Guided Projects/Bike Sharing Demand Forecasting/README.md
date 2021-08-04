@@ -1,0 +1,2 @@
+- Note this is a project done with heavy reliance on teaching material from Udemy
+- Dataset is retrieved from Kaggle and access to this material can be found at: https://www.kaggle.com/c/bike-sharing-demand/data?select=test.csv
