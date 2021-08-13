@@ -1,5 +1,3 @@
-package DebtPaymentCalculator;
-
 import java.util.Scanner;
 
 public class DebtCalculator{
