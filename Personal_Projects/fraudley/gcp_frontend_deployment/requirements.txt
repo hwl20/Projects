@@ -1,0 +1,11 @@
+dill
+gradio
+joblib
+numpy
+pandas
+lime
+Pillow
+requests
+streamlit
+xgboost==1.5.2
+regex
